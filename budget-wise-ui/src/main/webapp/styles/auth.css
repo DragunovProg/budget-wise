@@ -13,10 +13,11 @@
 }
 
 .form-control {
-    margin-top: 20px;
     padding: 10px 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    width: 100%;
+    margin-top: 25px;
 }
 
 .form-control:focus, .form-control:hover{
@@ -66,8 +67,22 @@
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 #email-error {
     color: red;
     font-size: 0.9rem;
     
+=======
+#email {
+    position:relative;
+    width: 100%;
+}
+
+#email-error {
+    position:absolute;
+    font-size: 0.8rem;
+    color: red;
+    left: 0;
+    bottom: -1.2rem;
+>>>>>>> 3878233d5a91539fbc19b47ad11d78fbb7cf229c
 }
