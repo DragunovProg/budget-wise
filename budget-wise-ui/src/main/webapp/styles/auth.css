@@ -65,3 +65,9 @@
     color: #007BFF;
     text-decoration: none;
 }
+
+#email-error {
+    color: red;
+    font-size: 0.9rem;
+    
+}
